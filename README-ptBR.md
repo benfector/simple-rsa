@@ -109,30 +109,30 @@ M = Cᵈ mod n
 ```
 
 ## 🔒 Proteção de Chaves:
-#### Público (pode compartilhar): e, n
+- **Público (pode compartilhar): e, n**
 
-#### Privado (NUNCA compartilhar): d, p, q
+- **Privado (NUNCA compartilhar): d, p, q**
 
 
 ## 📂 Tamanho:
 
-#### Tamanho usado: 20 bits. Para testes (1024+ em produção)
+- **Tamanho usado: 20 bits. Para testes (1024+ em produção)**
 
 
 ## 🔧 Biblioteca:
 
-#### GMP (GNU Multiple Precision): Aritmética de grande precisão
+- **GMP (GNU Multiple Precision): Aritmética de grande precisão**
 
 
 ## 📊 Exemplo de Uso Real:
-### Alice (Gera Chaves):
+- **Alice (Gera Chaves):**
 ```bash
 ./rsa_program
 # Digita: "Hello Friend"
 # Gera: encrypted/message.enc + keys.txt
 ```
 
-### Bob (Recebe e Descriptografa):
+- **Bob (Recebe e Descriptografa):**
 ```bash
 ./decrypt_program  
 # Digita: d = 987654321, n = 2453847334678011
@@ -141,7 +141,7 @@ M = Cᵈ mod n
 
 ## 📄 Licença
 
-### Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+- **Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.**
 
 <div align="center">
 
