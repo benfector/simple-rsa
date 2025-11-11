@@ -1,5 +1,5 @@
 /*decrypt.cpp*/
-/*g++ -std=c++17 -Iinclude src/decrypt.cpp -o decrypt_program -lgmp -lgmpxx -lstdc++fs*/
+/*g++ -std=c++17 -Iinclude src/decrypt.cpp -o decrypt_program -lgmp -lgmpxx*/
 
 #include <iostream>
 #include <fstream>
