@@ -1,0 +1,2 @@
+Public Key (e, n): (5, 160467862673) 
+Private key: (d, n): (96280212665, 160467862673) /*In a production environment, the 'd' key must NOT be exposed.*/
