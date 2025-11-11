@@ -25,10 +25,10 @@
 
 ## Teoria Matemática por Trás do RSA:
 
-#### Teorema de Euler: φ(n) = (p-1)(q-1) onde p e q são primos
-#### Aritmética Modular: C = Mᵉ mod n, M = Cᵈ mod n 
-#### Teorema dos Números Primos: Geração de números primos grandes
-#### Algoritmo Estendido de Euclides: Para encontrar d tal que e·d ≡ 1 mod φ(n)
+- #### Teorema de Euler: φ(n) = (p-1)(q-1) onde p e q são primos
+- #### Aritmética Modular: C = Mᵉ mod n, M = Cᵈ mod n 
+- #### Teorema dos Números Primos: Geração de números primos grandes
+- #### Algoritmo Estendido de Euclides: Para encontrar d tal que e·d ≡ 1 mod φ(n)
 
 
 
