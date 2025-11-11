@@ -15,8 +15,8 @@
 </div>
 
 ## 🤔 Why build from scratch? 
-- Learning: Understand RSA internals
-- Not production: Use OpenSSL for real apps
+- **Learning: Understand RSA internals**
+- **Not production: Use OpenSSL for real apps**
 
 ## 🎯 What Was Implemented:
 
@@ -181,4 +181,5 @@ $./decrypt_program
 ```
 ## 🌟 Did You Like It?
 ### If you liked it, leave a star to help 🫡
+
 
