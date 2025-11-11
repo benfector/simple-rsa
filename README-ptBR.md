@@ -17,8 +17,8 @@
 
 ## 🤔 Por que construir do zero?
 
-#### Aprendizado: Entender o funcionamento interno do RSA
-#### Não é para produção: Use o OpenSSL em aplicações reais
+- **Aprendizado: Entender o funcionamento interno do RSA.**
+- **Não é para produção: Use o OpenSSL em aplicações reais.**
 
 
 ## 🎯 O Que Foi Implementado:
