@@ -1,4 +1,4 @@
-/*g++ -std=c++17 -Iinclude src/main.cpp src/rsa.cpp -o rsa_program -lgmp -lgmpxx -lstdc++fs*/
+/*g++ -std=c++17 -Iinclude src/main.cpp src/rsa.cpp -o rsa_program -lgmp -lgmpxx*/
 
 /*rsa.cpp*/
 
