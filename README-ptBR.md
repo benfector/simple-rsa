@@ -72,29 +72,29 @@ string number_to_text()              // Converte número para string
 ```
 
 ## 🧮 Explicação Matemática Detalhada:
-###  Passo a Passo do RSA:
+**Passo a Passo do RSA:**
 
-#### Escolha de Primos:
+- **Escolha de Primos:**
 
-#### p = 1234567891, q = 1987654321 (exemplo)
+- **p = 1234567891, q = 1987654321 (exemplo)**
 
-#### Verificação com Miller-Rabin
+- **Verificação com Miller-Rabin**
 
-#### Cálculo do Módulo:
+- **Cálculo do Módulo:**
 
-#### n = p × q = 2453847334678011
+- **n = p × q = 2453847334678011**
 
-#### Função Totiente de Euler:
+- **Função Totiente de Euler:**
 
-#### φ(n) = (p-1) × (q-1)
+- **φ(n) = (p-1) × (q-1)**
 
-#### Expoente Público (e):
+- **Expoente Público (e):**
 
-#### e = 65537 (comum) ou menor coprimo com φ(n)
+- **e = 65537 (comum) ou menor coprimo com φ(n)**
 
-#### Expoente Privado (d):
+- **Expoente Privado (d):**
 
-#### d ≡ e⁻¹ mod φ(n) (via Algoritmo Estendido de Euclides)
+- **d ≡ e⁻¹ mod φ(n) (via Algoritmo Estendido de Euclides)**
 
 ## 🔐 Criptografia:
 
