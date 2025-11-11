@@ -22,10 +22,10 @@
 
 ## Mathematical Theory Behind RSA:
 
-- #### Euler's Theorem: φ(n) = (p-1)(q-1) where p and q are primes
-- #### Modular Arithmetic: C = Mᵉ mod n, M = Cᵈ mod n 
-- #### Prime Number Theorem: Generation of large prime numbers
-- #### Extended Euclidean Algorithm: To find d such that e·d ≡ 1 mod φ(n)
+- **Euler's Theorem: φ(n) = (p-1)(q-1) where p and q are primes**
+- **Modular Arithmetic: C = Mᵉ mod n, M = Cᵈ mod n**
+- **Prime Number Theorem: Generation of large prime numbers**
+- **Extended Euclidean Algorithm: To find d such that e·d ≡ 1 mod φ(n)**
 
 ## Main Components Implemented:
 #### 🔢 Prime Number Generation
@@ -64,16 +64,16 @@ string number_to_text()              // Converts number to string
 ## 🧮 Detailed Mathematical Explanation:
 ### Step by Step RSA:
 #### Prime Selection:
-#### p = 1234567891, q = 1987654321 (example)
-#### Verification with Miller-Rabin
+- **p = 1234567891, q = 1987654321 (example)**
+- **Verification with Miller-Rabin**
 #### Modulus Calculation:
-#### n = p × q = 2453847334678011
+- **n = p × q = 2453847334678011**
 #### Euler's Totient Function:
-#### φ(n) = (p-1) × (q-1)
+- **φ(n) = (p-1) × (q-1)**
 #### Public Exponent (e):
-#### e = 65537 (common) or smaller coprime with φ(n)
+- **e = 65537 (common) or smaller coprime with φ(n)**
 #### Private Exponent (d):
-#### d ≡ e⁻¹ mod φ(n) (via Extended Euclidean Algorithm)
+- **d ≡ e⁻¹ mod φ(n) (via Extended Euclidean Algorithm)**
 
 ## 🔐 Encryption:
 ```text
@@ -109,7 +109,7 @@ M = Cᵈ mod n
 # Result: "Hello Friend" in decrypted/decrypted_message.txt
 ```
 ## 📄 License
-### This project is under MIT License. See LICENSE file for details.
+**This project is under MIT License. See LICENSE file for details.**
 
 <div align="center">
 
@@ -181,6 +181,7 @@ $./decrypt_program
 ```
 ## 🌟 Did You Like It?
 ### If you liked it, leave a star to help 🫡
+
 
 
 
