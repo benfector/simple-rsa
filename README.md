@@ -22,10 +22,10 @@
 
 ## Mathematical Theory Behind RSA:
 
-#### Euler's Theorem: φ(n) = (p-1)(q-1) where p and q are primes
-#### Modular Arithmetic: C = Mᵉ mod n, M = Cᵈ mod n 
-#### Prime Number Theorem: Generation of large prime numbers
-#### Extended Euclidean Algorithm: To find d such that e·d ≡ 1 mod φ(n)
+- #### Euler's Theorem: φ(n) = (p-1)(q-1) where p and q are primes
+- #### Modular Arithmetic: C = Mᵉ mod n, M = Cᵈ mod n 
+- #### Prime Number Theorem: Generation of large prime numbers
+- #### Extended Euclidean Algorithm: To find d such that e·d ≡ 1 mod φ(n)
 
 ## Main Components Implemented:
 #### 🔢 Prime Number Generation
@@ -181,5 +181,6 @@ $./decrypt_program
 ```
 ## 🌟 Did You Like It?
 ### If you liked it, leave a star to help 🫡
+
 
 
