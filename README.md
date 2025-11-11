@@ -14,6 +14,10 @@
 
 </div>
 
+## 🤔 Why build from scratch? 
+- Learning: Understand RSA internals
+- Not production: Use OpenSSL for real apps
+
 ## 🎯 What Was Implemented:
 
 ## Mathematical Theory Behind RSA:
@@ -177,3 +181,4 @@ $./decrypt_program
 ```
 ## 🌟 Did You Like It?
 ### If you liked it, leave a star to help 🫡
+
