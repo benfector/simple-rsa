@@ -86,30 +86,30 @@ M = Cᵈ mod n
 ```
 
 ## 🔒 Key Protection:
-#### Public (can share): e, n
-#### Private (NEVER share): d, p, q
+- **Public (can share): e, n**
+- **Private (NEVER share): d, p, q**
 
 ## 📂 Size:
-#### Size used: 20 bits. For testing (1024+ in production)
+- **Size used: 20 bits. For testing (1024+ in production)**
 
 ## 🔧 Library:
-#### GMP (GNU Multiple Precision): Large precision arithmetic
+- **GMP (GNU Multiple Precision): Large precision arithmetic**
 
 ## 📊 Real Usage Example:
-### Alice (Generates Keys):
+- **Alice (Generates Keys):**
 ```bash
 ./rsa_program
 # Input: "Hello Friend"
 # Generates: encrypted/message.enc + keys.txt
 ```
-### Bob (Receives and Decrypts):
+- **Bob (Receives and Decrypts):**
 ```bash
 ./decrypt_program  
 # Input: d = 987654321, n = 2453847334678011
 # Result: "Hello Friend" in decrypted/decrypted_message.txt
 ```
 ## 📄 License
-**This project is under MIT License. See LICENSE file for details.**
+- **This project is under MIT License. See LICENSE file for details.**
 
 <div align="center">
 
@@ -181,6 +181,7 @@ $./decrypt_program
 ```
 ## 🌟 Did You Like It?
 ### If you liked it, leave a star to help 🫡
+
 
 
 
